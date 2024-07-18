@@ -1,0 +1,64 @@
+{{ define "main" }}
+<section class="home-about wrapper">
+    <div class="avatar">
+        {{ if isset .Site.Params "avatarurl" }}
+        <img class={{ .Site.Params.AvatarSize | default "size-m" }} src='{{ .Scratch.Get "avatarImgSrc" }}' alt="{{
+        .Site.Params.AvatarAltText|default "avatar" }}">
+        {{ end }}
+    </div>
+
+    <h1>{{ .Site.Title }}</h1>
+    {{ if isset .Site.Params "description" }}
+    <div class="typing-wrapper">
+        <h3 class="animated-typing">{{ .Site.Params.Description }}</h3>
+    </div>
+    {{ end }}
+
+
+    {{ if isset .Site.Params "socialicons" }}
+    <div class="social-icons">
+        <ul class="social-icons-list">
+            {{ range .Site.Params.SocialIcons }}
+            <li class="social-icon">
+                <a href="{{ .url }}" {{ if .rel }}rel="{{ .rel }}" {{ end }} aria-label="Learn more on {{ .name }}">
+                    <img class="svg-inject" src="/svg/icons/{{ .name }}.svg" alt="">
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</section>
+
+<div class="flex-break"></div>
+
+
+<!--<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&letterSpacing=1px&duration=800&pause=300&color=B3F2F7&multiline=true&repeat=false&width=450&height=110&lines=%E2%9D%A4%EF%B8%8F%E2%80%8D%F0%9F%94%A5+%3E+%E4%BB%A5%E6%92%B0%E5%AF%ABSide+Project%E7%82%BA%E6%A8%82%E7%9A%84%E6%96%B0%E6%89%8B%E5%B7%A5%E7%A8%8B%E5%B8%AB;%E2%9D%A4%EF%B8%8F%E2%80%8D%F0%9F%A9%B9+%3E+%E4%BA%AB%E5%8F%97%E8%A2%AB%E7%9F%A5%E8%AD%98%E6%8A%98%E7%A3%A8%E7%9A%84%E6%84%9F%E8%A6%BA;+;%F0%9F%92%99+%3E+%E6%88%90%E5%8A%9F%E4%B8%80%E5%AE%9A%E5%9C%A8%E4%B8%8D%E9%81%A0%E8%99%95%E5%90%A7%EF%BC%9F"-->
+<!--     alt="Typing SVG"/>-->
+
+{{ if os.FileExists "index-about.md" }}
+<div class="markdown-content">
+    {{ readFile "index-about.md" | markdownify }}
+</div>
+{{ end }}
+
+{{ if isset .Site.Params "showpostsonhomepage" }}
+
+<div class="home-posts list-posts">
+    <h2>{{ i18n (.Site.Params.ShowPostsOnHomePage | humanize) }} Posts</h2>
+
+    {{ $posts := where .Site.Pages "Params.type" "post" }}
+
+    {{ if eq .Site.Params.ShowPostsOnHomePage "popular" }}
+    {{ range $posts.ByWeight | first 4 }}
+    {{- partial "list-posts.html" . -}}
+    {{ end }}
+    {{ else if eq .Site.Params.ShowPostsOnHomePage "recent" }}
+    {{ range $posts.ByDate.Reverse | first 4 }}
+    {{- partial "list-posts.html" . -}}
+    {{ end }}
+    {{ end }}
+</div>
+
+{{ end }}
+{{ end }}

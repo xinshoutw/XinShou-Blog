@@ -1,0 +1,8 @@
+<details>
+    <summary>
+        <strong>
+            {{ with .Get 0}}{{. | markdownify | plainify}}{{else}}{{ end }}
+        </strong>
+    </summary>
+    {{ .Inner | markdownify }}
+</details>

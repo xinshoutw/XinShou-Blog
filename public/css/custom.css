@@ -1,0 +1,28 @@
+.typing-wrapper {
+  height: 2em;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.animated-typing {
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .1em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .3em;
+  animation:
+    typing 1.5s steps(17),
+    blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}

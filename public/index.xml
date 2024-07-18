@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XinShou&#39;s Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on XinShou&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FHSH X AIS3 Club 挑戰賽</title>
+      <link>http://localhost:1313/posts/cyber-security/fhsh-x-ais3-club-%E6%8C%91%E6%88%B0%E8%B3%BD/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cyber-security/fhsh-x-ais3-club-%E6%8C%91%E6%88%B0%E8%B3%BD/</guid>
+      <description>Team – ntihs&#xA;Member – cheng, salt, wasami, xinshou&#xA;計分板／題目 MISC Welcome 這是 Sanity Check 喔！&#xA;直接複製貼上卽可！&#xA;找到flag 就是CTF 的精髓啦～&#xA;FhCTF{W3cOmE_ch4113nger_e8a898e5be97e58aabe585a5e8999be693ace7a4bee59c98}&#xA;簡單的啦！&#xA;三類組的毛病了..都想看實體心臟&amp;hellip;&#xA;Author: CXPh03n1x&#xA;題解 無&#xA;Flag: FhCTF{W3c0mE_ch4ll3nger_e8a898e5be97e58aa0e585a5e8999be693ace7a4bee59c98}&#xA;Survey 就是要來調查一下啦～&#xA;請大家要回答喔～&#xA;這題值5分&#xA;https://forms.gle/NzDoAgBEu2gbgN6NA&#xA;Author: CXPh03n1x&#xA;題解 表單填完就有了，或是偷吃步&#xA;$ curl https://docs.google.com/forms/d/e/1FAIpQLSc12s3nmeR4uoVqQrgHYCxOyO71viqTQKn9WVAdzjogM3Xhig/viewform | grep -E &amp;#39;FhCTF{\S+}&amp;#39; Flag: FhCTF{G00d_G4m3}&#xA;INDEX 與 RULES 的差集 みんなさん&#xA;你們都熟讀首頁與規則了嗎？&#xA;真的要好好熟讀喔！&#xA;眞的要「熟讀」喔！！！！！&#xA;Author: CXPh03n1x&#xA;題解 找到第一段 flag 與 xorkey RmhDVEZ7SDNsMW8gPC0tIHBhcnQgMS8y FhCTF{H3l1o &amp;lt;-- part 1/2 (Base64 Decoded)</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/index-about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/index-about/</guid>
+      <description>我是 人&amp;hellip; 我會 睡覺&amp;hellip; 我做過 摺被子&amp;hellip; 我參加過 摺被子競賽&amp;hellip; 我擔任過 被子管理員&amp;hellip; </description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+baseURL = "https://blog.xinshou.tw/"
+title = "XinShou's Blog"
+theme = "gokarna"
+defaultContentLanguage = "zh-tw"
+languageCode = "zh-tw"
+enableEmoji = true
+enableRobotsTXT = true
+
+
+[params]
+footer = "XinShou"
+description = "嗨囉，我是新手，很高興認識你～🐳"
+avatarURL = "/images/avatar.jpeg"
+AvatarAltText = "avatar.jpeg"
+avatarSize = "size-xl"
+ShowBackToTopButton = false # broken
+socialIcons = [
+    { name = "discord", url = "https://discord.xinshou.tw" },
+    { name = "github", url = "https://github.xinshou.tw" },
+    { name = "email", url = "mailto:icexinshou@gmail.com" }
+]
+metaKeywords = ["blog", "XinShou", "新手"]
+
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+pre = "<span data-feather='book'></span>"
+name = "Posts"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+pre = "<span data-feather='tag'></span>"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+#[[menu.main]]
+#identifier = "github"
+#url = "https://github.com/IceXinShou"
+#weight = 3
+#pre = "<span data-feather='github'></span>" # https://feathericons.com/
