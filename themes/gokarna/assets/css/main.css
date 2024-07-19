@@ -456,15 +456,6 @@ table td {
   font-size: 1.1em;
   font-style: italic;
 }
-/* SINGLE */
-.post [role="doc-author"] {
-  font-size: 0.8em;
-  font-weight: bold;
-  color: #7f7f7f;
-  display: flex;
-  align-items: center;
-  margin-top: 2em;
-}
 .post {
   /* Prevent long strings from overflowing */
   overflow-wrap: break-word;

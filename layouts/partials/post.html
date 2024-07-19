@@ -4,7 +4,7 @@
 
         <small role="doc-subtitle">{{ .Description }}</small>
         <small role="doc-author">
-            <span data-feather='user'></span>
+            <span data-feather='user' style="margin-right: .2em"></span>
             {{ delimit .Params.authors ", " }}
         </small>
         <p class="post-date">{{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}

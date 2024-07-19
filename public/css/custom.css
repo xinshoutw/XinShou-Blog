@@ -26,3 +26,13 @@
   from, to { border-color: transparent }
   50% { border-color: white }
 }
+
+/* SINGLE */
+.post [role="doc-author"] {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #7f7f7f;
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}

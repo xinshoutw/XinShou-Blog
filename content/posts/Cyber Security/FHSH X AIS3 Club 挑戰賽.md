@@ -1,6 +1,5 @@
 ---
 title: "FHSH X AIS3 Club 挑戰賽"
-description: "TEST"
 image: "/posts/Cyber Security/FHSH X AIS3 Club 挑戰賽/icon.webp"
 tags: [ "Cyber Security", "CTF Writeup" ]
 authors: [ "鄭", "salt", "XinShou" ]

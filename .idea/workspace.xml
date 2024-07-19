@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87adc141-e5d8-4a7d-bc52-701940d82626" name="Changes" comment="add submodule">
-      <change afterPath="$PROJECT_DIR$/layouts/partials/post.html" afterDir="false" />
+    <list default="true" id="87adc141-e5d8-4a7d-bc52-701940d82626" name="Changes" comment="Add authors header">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/XinShou-Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/XinShou-Blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/posts/Cyber Security/FHSH X AIS3 Club 挑戰賽.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Cyber Security/FHSH X AIS3 Club 挑戰賽.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/posts/cyber-security/fhsh-x-ais3-club-挑戰賽/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/cyber-security/fhsh-x-ais3-club-挑戰賽/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/gokarna/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/gokarna/assets/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +44,7 @@
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
@@ -89,7 +94,7 @@
       <workItem from="1721313263706" duration="1157000" />
       <workItem from="1721315280152" duration="1815000" />
       <workItem from="1721349744903" duration="121000" />
-      <workItem from="1721349881485" duration="2041000" />
+      <workItem from="1721349881485" duration="2786000" />
     </task>
     <task id="LOCAL-00001" summary="add submodule">
       <option name="closed" value="true" />
@@ -99,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721312459173</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add authors header">
+      <option name="closed" value="true" />
+      <created>1721352096938</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721352096938</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +124,7 @@
       <path value="$PROJECT_DIR$/themes/gokarna/exampleSite/themes/gokarna" />
     </ignored-roots>
     <MESSAGE value="add submodule" />
-    <option name="LAST_COMMIT_MESSAGE" value="add submodule" />
+    <MESSAGE value="Add authors header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add authors header" />
   </component>
 </project>
