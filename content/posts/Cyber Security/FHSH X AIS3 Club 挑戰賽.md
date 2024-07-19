@@ -1,7 +1,9 @@
 ---
 title: "FHSH X AIS3 Club 挑戰賽"
+description: "TEST"
 image: "/posts/Cyber Security/FHSH X AIS3 Club 挑戰賽/icon.webp"
 tags: [ "Cyber Security", "CTF Writeup" ]
+authors: [ "鄭", "salt", "XinShou" ]
 type: post
 showTableOfContents: true
 date: 2024-06-08
@@ -1412,9 +1414,3 @@ for enc in flag_enc:
 ```
 
 > Flag: `FhCTF{R@nD0m_S33d_1S_C001}`
-
----
-
-> [name=salt]
-> [name=鄭]
-> [name=XinShou]

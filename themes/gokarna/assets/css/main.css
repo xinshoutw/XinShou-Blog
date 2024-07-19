@@ -451,11 +451,19 @@ table td {
   padding-top: 10px;
   width: 80%;
 }
-
 /* SINGLE */
 .post [role="doc-subtitle"] {
   font-size: 1.1em;
   font-style: italic;
+}
+/* SINGLE */
+.post [role="doc-author"] {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #7f7f7f;
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
 }
 .post {
   /* Prevent long strings from overflowing */
@@ -673,7 +681,7 @@ table td {
 }
 
 .arrow-logo:hover {
-  fill:  var(--accent-color); 
+  fill:  var(--accent-color);
 }
 
 @media screen and (max-width: 600px) {
