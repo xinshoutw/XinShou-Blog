@@ -1,7 +1,7 @@
 ---
-title: "FHSH X AIS3 Club 挑戰賽"
-image: "/posts/Cyber Security/FHSH X AIS3 Club 挑戰賽/icon.webp"
-tags: [ "Cyber Security", "CTF Writeup" ]
+lang: zh-TW
+title: "FHSH X AIS3 Club 挑戰賽 Writeup"
+tags: [ "Cyber Security", "Competition", "CTF Writeup" ]
 authors: [ "鄭", "salt", "XinShou" ]
 type: post
 showTableOfContents: true
@@ -11,7 +11,7 @@ date: 2024-06-08
 > Team – [ntihs](https://ctfd.fhh4ck3rs.taipei/teams/16)  
 > Member – cheng, salt, wasami, xinshou
 
-{{< spoiler "計分板／題目" >}}
+{{< spoiler "Scoreboard／Challenge" >}}
 ![Scoreboard](https://hackmd.io/_uploads/S19f1-_rR.png)
 ![Challenges](https://hackmd.io/_uploads/BJJWyZuSA.png)
 {{< /spoiler >}}
@@ -19,10 +19,9 @@ date: 2024-06-08
 ---
 
 ## MISC
-
 ### Welcome
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/HJe1-wlH0.png "500px")
 > {{< /spoiler >}}
 > 這是 Sanity Check 喔！  
@@ -35,7 +34,6 @@ date: 2024-06-08
 > Author: CXPh03n1x
 
 #### 題解
-
 無
 
 > Flag: `FhCTF{W3c0mE_ch4ll3nger_e8a898e5be97e58aa0e585a5e8999be693ace7a4bee59c98}`
@@ -44,7 +42,7 @@ date: 2024-06-08
 
 ### Survey
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/BJN8heOrC.png "500px")
 > {{< /spoiler >}}
 > 就是要來調查一下啦～  
@@ -71,7 +69,7 @@ $ curl https://docs.google.com/forms/d/e/1FAIpQLSc12s3nmeR4uoVqQrgHYCxOyO71viqTQ
 
 ### INDEX 與 RULES 的差集
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/Bk_-WPeS0.png "500px")
 > {{< /spoiler >}}
 > みんなさん  
@@ -109,10 +107,9 @@ $ curl https://docs.google.com/forms/d/e/1FAIpQLSc12s3nmeR4uoVqQrgHYCxOyO71viqTQ
 ---
 
 ## CRYPTOGRAPHY
-
 ### Taiwan No.1
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/HyhFNxErA.png "500px")
 > {{< /spoiler >}}
 > 第一名啦！  
@@ -246,7 +243,7 @@ Your flag is here: FhCTF{Liv3d_1n_T41w3n_Goo00oo00d}
 
 ### MitM 攻擊者
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/ByHoVgNrC.png "500px")
 > {{< /spoiler >}}
 > 作為中間人的辛苦你懂嗎！！！  
@@ -269,7 +266,7 @@ Your flag is here: FhCTF{Liv3d_1n_T41w3n_Goo00oo00d}
 
 ### Hex Dumb Dumb
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/BkBGHeVS0.png "500px")
 > {{< /spoiler >}}
 > 我說，用 UTF-8 已經過時了！現在都用 6865786g6d616c  
@@ -325,7 +322,7 @@ Your flag is here: FhCTF{Liv3d_1n_T41w3n_Goo00oo00d}
 
 ### Do you know packet?
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/rk27IgNHC.png "500px")
 > {{< /spoiler >}}
 > I receive a PCAP file. But...., what it means?
@@ -523,7 +520,7 @@ w7
 
 ### 穿越檔案的旅人
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/BJAGOPNBC.png "500px")
 > {{< /spoiler >}}
 > 然後就被卡車撞了...穿越異世界GOGO  
@@ -555,7 +552,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### Information
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/H1-IkKVrR.png "500px")
 > {{< /spoiler >}}
 > 資訊是種很玄的東西，他如影隨形~  
@@ -578,7 +575,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### Information Ultimate
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/ry6d4k_rR.png "500px")
 > {{< /spoiler >}}
 > 終極之章，你能了解我下了多少苦心嗎？  
@@ -617,7 +614,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### Information Revenge
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/SkepiJOH0.png "500px")
 > {{< /spoiler >}}
 > 復仇之戰，我又來啦！  
@@ -693,7 +690,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### Baking Store
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/B1NAZK4B0.png "500px")
 > {{< /spoiler >}}
 > 烘焙時間！  
@@ -728,7 +725,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### Baking Store Revenge
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/S1Ty4euHC.png "500px")
 > {{< /spoiler >}}
 > 復仇，復仇，最後的復仇  
@@ -763,7 +760,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### A Web
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/B1TXqv4BR.png "500px")
 > {{< /spoiler >}}
 > Just a WEB, nothing else..  
@@ -786,7 +783,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### Gotcha
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/H1lTSKVH0.png "500px")
 > {{< /spoiler >}}
 > Can you get the flag?    
@@ -810,7 +807,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### BMI 計算機
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/SkRoHgOrR.png "500px")
 > {{< /spoiler >}}
 > 體重的控制是重要的  
@@ -840,7 +837,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### Login
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/SyvvUxdHA.png "500px")
 > {{< /spoiler >}}
 > I found a login page. What is the account and password?  
@@ -862,7 +859,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### 上鎖了！？
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/B1r6wldrA.png "500px")
 > {{< /spoiler >}}
 > 公堂之上，假設一下不犯法吧？  
@@ -920,7 +917,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### BabyReverse
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/SJ0o2g_rC.png "500px")
 > {{< /spoiler >}}
 > 真．嬰兒等級逆向  
@@ -939,7 +936,7 @@ URL: https://travaling.fhh4ck3rs.taipei/img../flag.txt
 
 ### BabyReverse Revenge
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/SJ0o2g_rC.png "500px")
 > {{< /spoiler >}}
 > 報仇？說「搞自己」還比較  
@@ -1120,7 +1117,7 @@ for char in buffer[:0x23]: print(chr(char ^ ord('?')), end='')
 
 ### 真。逆向工程
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/S1JUgb_BA.png "500px")
 > {{< /spoiler >}}
 > 真的來了，逆向工程真的來了！！    
@@ -1350,7 +1347,7 @@ void print_flag(void)
 
 ### Secret Message
 
-> {{< spoiler >}}
+> {{< spoiler "原圖" >}}
 > ![Challenge](https://hackmd.io/_uploads/ry_Peb_SA.png "500px")
 > {{< /spoiler >}}
 > I got an encryption program and an encrypted message. How can I decrypt it

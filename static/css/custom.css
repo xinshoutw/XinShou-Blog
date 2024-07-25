@@ -13,7 +13,7 @@
   margin: 0 auto;
   letter-spacing: .3em;
   animation:
-    typing 1.5s steps(17),
+    typing 1s steps(15),
     blink-caret 1s step-end infinite;
 }
 

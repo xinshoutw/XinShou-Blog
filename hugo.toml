@@ -9,7 +9,7 @@ enableRobotsTXT = true
 
 [params]
 footer = "XinShou"
-description = "嗨囉，我是新手，很高興認識你～🐳"
+description = "哈囉我是新手，很高興認識你🐳"
 avatarURL = "/images/avatar.jpeg"
 AvatarAltText = "avatar.jpeg"
 avatarSize = "size-xl"
