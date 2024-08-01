@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+# 將 Hackmd 中的筆記內容轉為 Gokarna 相容的顯示樣式
+# Usage: ./Hackmd2blog.py ./target.md ./output.md
+# Author: XinShou
 
 import sys
-
 import re
 
 

