@@ -22,7 +22,8 @@
 
 ## 我比賽過
 
-- 2024 DownUnderCTF[B33F50μP] ⎯ rk.44
+- 2024 DownUnderCTF\[B33F50μP\] ⎯ rk.44
+- 2024 國家資通安全研究院 - CTF 種子培訓工作坊 TSCCTF ⎯ rk.7
 - 2024 AIS3 Pre-exam ⎯ rk.90
 - 2024 AIS3 MyFirstCTF ⎯ rk.淺力獎
 - 2024 FHSH X AIS3 Club ⎯ rk.2
@@ -31,7 +32,7 @@
 
 ## 我參加過
 
-- 2024 AIS3 Summer Camp
+- 2024 AIS3 新型態資安暑期課程 跨域資訊安全組
 - 2024 成大資安社 B33F50μP
 - 2024 SCIST 南九校資訊社聯合寒訓
 - 2023 SCIST 資安 S3 線上學員

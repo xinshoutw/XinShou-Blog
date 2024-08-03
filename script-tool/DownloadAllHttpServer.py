@@ -1,7 +1,7 @@
 # 下載由 Python http-server 架設的完整檔案目錄
 # Author: XinShou
 
-from tqdm import tqdm  # pip install tqdm
+from tqdm.auto import tqdm  # pip install tqdm
 from urllib.request import urlretrieve, urlopen  # pip install urllib3
 from urllib.parse import unquote
 from urllib.error import URLError, HTTPError
