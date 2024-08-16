@@ -1,27 +1,33 @@
-## 我是
+***
 
+## 稱呼與暱稱
+- XinShou (xs)
+- IceXinShou
+- 新手
+- 小黃
+- 宥維
+
+## 我是
 - 熱愛專案開發的小孩
 - 目前正探索著各項資工領域
-- 臺科大資工系
 
 ## 我學過
-
-- 語言
+- 程式語言
     - C／C++
     - C#
     - Java
-    - Kotlin
+    - Kotlin (Current)
     - Python
 
-- 主題
+- 主題類型
     - 一點資安
     - Discord Bot Dev
-    - Minecraft Host／Plugin Dev
-- 經歷
-    - EC-Council CEH
+    - Minecraft Host ／ Plugin Dev
+
+- 課程經歷
+    - EC-Council Certified Ethical Hacker (CEH)
 
 ## 我比賽過
-
 - 2024 DownUnderCTF\[B33F50μP\] ⎯ rk.44
 - 2024 國家資通安全研究院 - CTF 種子培訓工作坊 TSCCTF ⎯ rk.7
 - 2024 AIS3 Pre-exam ⎯ rk.90
@@ -31,7 +37,6 @@
 - 2023 行政院國家資通安全會報技術服務中心 資安技能金盾獎 - 高中職組 ⎯ rk.4
 
 ## 我參加過
-
 - 2024 AIS3 新型態資安暑期課程 跨域資訊安全組
 - 2024 成大資安社 B33F50μP
 - 2024 SCIST 南九校資訊社聯合寒訓
