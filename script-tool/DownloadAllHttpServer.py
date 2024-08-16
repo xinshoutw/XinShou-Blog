@@ -31,11 +31,11 @@ def process_download_queue():
 
     while not downloadQueue.empty():
         current = downloadQueue.get()
+        os.makedirs(os.path.dirname(os.path.join(output_path, unquote(current))), exist_ok=True)
 
         if current.endswith('/'):
             directory_content = fetch_url_content(url + current)
             if directory_content:
-                os.makedirs(os.path.dirname(os.path.join(output_path, current)), exist_ok=True)
                 for link in re.findall(r'<a href="([^"]+)">', directory_content):
                     downloadQueue.put(current + link)
         else:
