@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87adc141-e5d8-4a7d-bc52-701940d82626" name="Changes" comment="Fix About">
-      <change afterPath="$PROJECT_DIR$/content/posts/Tools/爬下你的 http-server 目錄.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script-tool/DownloadAllHttpServer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/posts/Tools/爬下你的 http-server 目錄/Demo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/posts/Tools/爬下你的 http-server 目錄/Demo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/XinShou-Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/XinShou-Blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackmd2blog/Hackmd2blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/script-tool/Hackmd2Gokarna.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackmd2blog/exmaple.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Tools/Hackmd2Gokarna.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/Cyber Security/AIS3 2024 Pre-Exam Writeup.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Cyber Security/AIS3 2024 Pre-Exam Writeup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,12 +44,15 @@
     &quot;assignee&quot;: &quot;IceXinShou&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/IceXinShou/XinShou-Blog.git&quot;,
-    &quot;accountId&quot;: &quot;70c02dfd-98b3-42b9-92bc-6970790aebe2&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/xinshoutw/XinShou-Blog.git",
+    "accountId": "70c02dfd-98b3-42b9-92bc-6970790aebe2"
   }
-}</component>
+}]]></component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -72,7 +72,11 @@
     "Python.Hackmd2blog.executor": "Run",
     "Python.tmp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/xinshou/XinShou-Blog/script-tool",
     "node.js.detected.package.eslint": "true",
@@ -167,8 +171,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
-        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
       </set>
     </attachedChunks>
   </component>
@@ -195,6 +198,7 @@
       <workItem from="1721975084830" duration="3423000" />
       <workItem from="1722257281494" duration="8321000" />
       <workItem from="1722492530334" duration="4124000" />
+      <workItem from="1738051787283" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="add submodule">
       <option name="closed" value="true" />
@@ -282,6 +286,10 @@
     <MESSAGE value="Add" />
     <MESSAGE value="Fix About" />
     <option name="LAST_COMMIT_MESSAGE" value="Fix About" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/XinShou_Blog$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1722495576515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hackmd2blog" />
