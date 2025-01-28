@@ -9,7 +9,7 @@ enableRobotsTXT = true
 
 [params]
 footer = "XinShou"
-description = "我是新手，很高興認識你 🐳"
+description = "我是新手，很高興認識你🐳"
 avatarURL = "/images/avatar.jpeg"
 AvatarAltText = "avatar.jpeg"
 avatarSize = "size-xl"
@@ -19,7 +19,7 @@ socialIcons = [
     { name = "github", url = "https://github.xinshou.tw" },
     { name = "email", url = "mailto:icexinshou@gmail.com" }
 ]
-metaKeywords = ["Blog", "XinShou", "IceXinShou", "小黃", "新手", "黃宥維", "xs"]
+metaKeywords = ["Blog", "XinShou", "xinshoutw", "IceXinShou", "小黃", "新手", "黃宥維", "xs"]
 
 
 [menu]
