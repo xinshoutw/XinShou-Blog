@@ -23,7 +23,7 @@
 
 ## 我會寫
 - 程式語言
-    - Kotlin/Java (Backend)
+    - Kotlin／Java (Backend)
     - Python (Backend)
     - C／C++ (Backend)
     - C#
@@ -32,7 +32,7 @@
     - 提高生活品質(懶人)
     - 一點資安研究
     - Discord Bot Dev
-    - Minecraft Host ／ Plugin Dev
+    - Minecraft Host／Plugin Dev
 
 - 課程經歷
     - EC-Council Certified Ethical Hacker (CEH)
