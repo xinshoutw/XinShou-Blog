@@ -17,9 +17,9 @@ ShowBackToTopButton = false # broken
 socialIcons = [
     { name = "discord", url = "https://discord.xinshou.tw" },
     { name = "github", url = "https://github.xinshou.tw" },
-    { name = "email", url = "mailto:icexinshou@gmail.com" }
+    { name = "email", url = "mailto:me@xinshou.tw" }
 ]
-metaKeywords = ["Blog", "XinShou", "xinshoutw", "IceXinShou", "小黃", "新手", "黃宥維", "xs"]
+metaKeywords = ["Blog", "XinShou", "xinshoutw", "IceXinShou", "小黃", "新手", "黃宥維", "xs", "xstw"]
 
 
 [menu]
@@ -39,6 +39,6 @@ weight = 2
 
 #[[menu.main]]
 #identifier = "github"
-#url = "https://github.com/IceXinShou"
+#url = "https://github.com/xinshoutw"
 #weight = 3
 #pre = "<span data-feather='github'></span>" # https://feathericons.com/
